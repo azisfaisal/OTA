@@ -32,7 +32,7 @@
       }
     },
     "updates": {
-      "url": "https://expo-open-ota-production-9c9a.up.railway.app",
+      "url": "https://expo-open-ota-production-9c9a.up.railway.app/manifest",
       "checkAutomatically": "ON_LOAD",
       "fallbackToCacheTimeout": 0,
       "channel": "production",
