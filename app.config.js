@@ -12,6 +12,8 @@ export default ({ config }) => ({
       requestHeaders: {
         "expo-channel-name": process.env.RELEASE_CHANNEL,
       },
+      channel: "production",
+      runtimeVersion: "1.0.0",
     },
   },
 });
