@@ -2,7 +2,7 @@ export default ({ config }) => ({
   ...config,
   ...{
     updates: {
-      url: "https://expo.wdata.pw/manifest",
+      url: "https://expo.wdata.pw",
       codeSigningMetadata: {
         keyid: "main",
         alg: "rsa-v1_5-sha256",
