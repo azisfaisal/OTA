@@ -7,7 +7,7 @@ export default ({ config }) => ({
         keyid: "main",
         alg: "rsa-v1_5-sha256",
       },
-      codeSigningCertificate: "certs/certificate.pem",
+      codeSigningCertificate: "./certs/certificate.pem",
       enabled: true,
       requestHeaders: {
         "expo-channel-name": process.env.RELEASE_CHANNEL,
