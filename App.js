@@ -44,7 +44,13 @@ export default function App() {
       <Text>
         Open up App.js to start working on your app! azis ganteng sekali lagi
       </Text>
-      <Button title="Update" color={"red"} onPress={checkForUpdates()} />
+      <Button
+        title="Update"
+        color={"red"}
+        onPress={() => {
+          checkForUpdates();
+        }}
+      />
       <StatusBar style="auto" />
     </View>
   );

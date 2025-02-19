@@ -35,7 +35,12 @@
       "url": "https://expo.wdata.pw",
       "checkAutomatically": "ON_LOAD",
       "fallbackToCacheTimeout": 0,
-      "channel": "preview"
+      "channel": "preview",
+      "enabled": true,
+      "codeSigning": {
+        "keyPath": "certs/private-key.pem",
+        "alg": "rsa-v1_5-sha256"
+      }
     },
     "plugins": [
       [
