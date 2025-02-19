@@ -21,7 +21,8 @@
       "channel": "production",
       "android": {
         "buildType": "apk"
-      }
+      },
+      "runtimeVersion": "1.0.0"
     }
   },
   "submit": {

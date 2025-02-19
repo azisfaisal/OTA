@@ -35,7 +35,7 @@
       "url": "https://expo.wdata.pw",
       "checkAutomatically": "ON_LOAD",
       "fallbackToCacheTimeout": 0,
-      "channel": "preview",
+      "channel": "production",
       "enabled": true,
       "codeSigning": {
         "keyPath": "certs/private-key.pem",
