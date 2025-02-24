@@ -10,6 +10,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "eoas": "^2.2.0",
     "expo": "~52.0.33",
     "expo-dev-client": "~5.0.12",
     "expo-status-bar": "~2.0.1",
