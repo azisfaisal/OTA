@@ -43,7 +43,7 @@ export default function App() {
   }, []);
   return (
     <View style={styles.container}>
-      <Text>Open up App cek kok</Text>
+      <Text>Open up App cek kok konstol</Text>
       <Button
         title="Update"
         color={"red"}
