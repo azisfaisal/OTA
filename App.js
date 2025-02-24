@@ -8,7 +8,14 @@ export default function App() {
   console.log(Updates.manifest);
   const checkForUpdates = async () => {
     try {
-      const update = await Updates.checkForUpdateAsync();
+      const update = await Updates.checkForUpdateAsync({
+        requestHeaders: {
+          "expo-channel-name": "production",
+          "expo-protocol-version": "0", // Pastikan sesuai dengan yang diterima server
+          "expo-platform": "android", // Sesuaikan dengan platform
+          "expo-runtime-version": "1.0.0", // Sesuaikan dengan runtime version yang digunakan
+        },
+      });
 
       if (update.isAvailable) {
         Alert.alert(
@@ -43,7 +50,7 @@ export default function App() {
   }, []);
   return (
     <View style={styles.container}>
-      <Text>Open up App</Text>
+      <Text>Open up App cuk</Text>
       <Button
         title="Update"
         color={"red"}
