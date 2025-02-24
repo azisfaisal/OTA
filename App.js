@@ -5,6 +5,7 @@ import { useEffect } from "react";
 
 export default function App() {
   console.log("Channel:", Updates.channel);
+  console.log(Updates.manifest);
   const checkForUpdates = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
