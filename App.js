@@ -4,6 +4,7 @@ import * as Updates from "expo-updates";
 import { useEffect } from "react";
 
 export default function App() {
+  console.log("Channel:", Updates.channel);
   const checkForUpdates = async () => {
     try {
       const update = await Updates.checkForUpdateAsync();
@@ -43,7 +44,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>
         Open up App.js to start working on your app! azis ganteng sekali lagi
-        cuk bret kok kk ll ggll wp llkilll bismmilah
+        cuk bret kok kk ll ggll wp llkilll bismmilah ya allah
       </Text>
       <Button
         title="Update"

@@ -12,13 +12,10 @@
     </intent>
   </queries>
   <application android:name=".MainApplication" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:allowBackup="true" android:theme="@style/AppTheme" android:supportsRtl="true">
-    <meta-data android:name="expo.modules.updates.CODE_SIGNING_CERTIFICATE" android:value="-----BEGIN CERTIFICATE-----&#xD;&#xA;MIICyzCCAbOgAwIBAgIJaXUAlfG+MZeKMA0GCSqGSIb3DQEBCwUAMA8xDTALBgNV&#xD;&#xA;BAMTBGF6aXMwHhcNMjUwMjEzMDg0ODEzWhcNMzUwMjEzMDg0ODEzWjAPMQ0wCwYD&#xD;&#xA;VQQDEwRhemlzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiI+MnbqJ&#xD;&#xA;hAMh66P2rfT7qi/YhociwB1V0slVZHKrd+zgG5g799OicQ8IPt72XhW3sVdg6xRo&#xD;&#xA;6P2zCKS6qRyUnqiuH0to9ZImdsi4vsIjE2CuJafYCPQULF4vi9j0qXEGyOPf2trv&#xD;&#xA;rrG87aIgSBtmVmwGB63rcALuCa50aZ1wKe5VLn7ATv98vWFcwiiy3UQz+yIJY37x&#xD;&#xA;Yny7EmZOubjWs9D3HP3z7y5TugLlUZFgKLNShrcvdgNZnl5fQJRzfrteyAzDYhZe&#xD;&#xA;LkKRxKRVmfZxb3MVbcLV28VTi2o0OkPGUioUSdvQklcTi2mPYQQCsUWwXQ9cuW3A&#xD;&#xA;a2gadihcozEb8QIDAQABoyowKDAOBgNVHQ8BAf8EBAMCB4AwFgYDVR0lAQH/BAww&#xD;&#xA;CgYIKwYBBQUHAwMwDQYJKoZIhvcNAQELBQADggEBAApmIHLFJg3XMSdFRPuPj+9N&#xD;&#xA;W161nxfK+gP3dGuZe1bs1HOOnaVd7hWbqkWsuUDA7pw+J80DKNiFobedsDyS4rdM&#xD;&#xA;1igHY+6GkHX8snMZJWOeDLExEbO3OAXVgIt+SNw9gIxN8jP2UNuNErOVTa/keZTv&#xD;&#xA;vbKfYHBpSqEXJD2nrAuvzUOSEvMEI5ord0rmIyXf82nA/s/zKsjFXNMyy6d/+V6+&#xD;&#xA;JkEFELXGgsi8eVQwUE2mFj8vpNNh831a3USeQXpkWQ82B+5zP3l3/H4GZWypU+1q&#xD;&#xA;R+Ygw9K2vUTDUh0f8sJhYPKlvhnng5uQray6bqCx0blg4XqaFm7gf7cKaU6ELG0=&#xD;&#xA;-----END CERTIFICATE-----&#xD;&#xA;"/>
-    <meta-data android:name="expo.modules.updates.CODE_SIGNING_METADATA" android:value="{&quot;keyid&quot;:&quot;main&quot;,&quot;alg&quot;:&quot;rsa-v1_5-sha256&quot;}"/>
     <meta-data android:name="expo.modules.updates.ENABLED" android:value="true"/>
     <meta-data android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH" android:value="ALWAYS"/>
     <meta-data android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS" android:value="0"/>
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="https://expo.wdata.pw/manifest"/>
-    <meta-data android:name="expo.modules.updates.UPDATES_CONFIGURATION_REQUEST_HEADERS_KEY" android:value="{}"/>
     <meta-data android:name="expo.modules.updates.EXPO_RUNTIME_VERSION" android:value="@string/expo_runtime_version"/>
     <activity android:name=".MainActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:theme="@style/Theme.App.SplashScreen" android:exported="true" android:screenOrientation="portrait">
       <intent-filter>
