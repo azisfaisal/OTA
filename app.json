@@ -40,10 +40,7 @@
       "enabled": true,
       "runtimeVersion": "1.0.0",
       "requestHeaders": {
-        "expo-channel-name": "production",
-        "expo-protocol-version": "1",
-        "expo-platform": "android",
-        "expo-runtime-version": "1.0.0"
+        "expo-channel-name": "production"
       }
     },
     "plugins": [
