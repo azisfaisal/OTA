@@ -50,7 +50,7 @@ export default function App() {
   }, []);
   return (
     <View style={styles.container}>
-      <Text>Open up App cuk</Text>
+      <Text>Open up App cukek</Text>
       <Button
         title="Update"
         color={"red"}
