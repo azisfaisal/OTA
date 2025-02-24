@@ -43,7 +43,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>
         Open up App.js to start working on your app! azis ganteng sekali lagi
-        cuk bret kok kk ll ggll wp llkilll
+        cuk bret kok kk ll ggll wp llkilll bismmilah
       </Text>
       <Button
         title="Update"
