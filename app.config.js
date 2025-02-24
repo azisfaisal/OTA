@@ -2,7 +2,7 @@ export default ({ config }) => ({
   ...config,
   ...{
     updates: {
-      url: "https://expo-open-ota-production-9c9a.up.railway.app/manifest",
+      url: "https://expo.wdata.pw/manifest",
       codeSigningMetadata: {
         keyid: "main",
         alg: "rsa-v1_5-sha256",
